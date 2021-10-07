@@ -1,0 +1,19 @@
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width:768px)  {
+    .post-list > div{
+        width: 50%!important;
+    }
+}
+
+@media screen and (min-width:1024px)  {
+    .post-list > div{
+        width: 32%!important;
+    }
+}
+

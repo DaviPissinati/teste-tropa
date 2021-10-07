@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+/* reset */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+/* default */
+
+p, h1, h2, a, span{
+    font-family: 'Advent Pro';
+    text-decoration: none;
+}
+
+
+
+
+

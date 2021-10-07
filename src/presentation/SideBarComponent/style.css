@@ -1,0 +1,98 @@
+.menu-side-bar {
+    max-width: auto;
+    width           :260px;
+    height          : 100vh;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: fixed;
+    left: -260px;
+    z-index: 1;
+}
+.menu-side-bar .logo-img {
+    margin: 19% 13.5% 19% 0;
+    display: block;
+    max-width: 190px;
+    width    : 100%;
+    height   : 56.88px;
+}
+
+.menu-side-bar .btn {
+    max-width: 211px;
+    width           : 100%;
+    height          : 50px;
+    background-color: #2EAFB2;
+    color           : white;
+    margin-top   : 11px;
+    border       : none;
+    border-radius: 5px;
+    display    : flex;
+    align-items: center;
+}
+
+.btn-menu{
+    height: 100%;
+    display: block;
+    right: -40px;
+    position: absolute;
+    background-color: #F3F3F3;
+}
+.home .btn:hover {
+    background-color: #125758;
+}
+/* .btn:hover {
+    background   : #F3F3F3;
+    border-radius: 10px 0px 0px 10px;
+    width        : 226px;
+    color        : black;
+} */
+
+.menu-list {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.menu-list li {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 12px;
+}
+.menu-list li.active {
+    padding-right: 0px;
+}
+.menu-list li.active .btn {
+    background   : #F3F3F3;
+    color        : #000;
+    max-width: 226px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+@media screen and (min-width:1281px) {
+    .btn-menu{
+    display: none;
+    }
+    .menu-side-bar {
+    max-width: 260px;
+    width           :13.6%;
+    left: inherit;
+    }
+    .menu-side-bar .logo-img{
+        max-width: 190px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .btn-menu{
+        display: none;
+    }
+    .menu-side-bar {
+    max-width: 260px;
+    width           :13.6%;
+    left: inherit;
+    }
+    .menu-side-bar .logo-img{
+        max-width: 118px;
+    }
+}
